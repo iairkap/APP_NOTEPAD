@@ -1,0 +1,77 @@
+.sideBarContainer {
+  border-right: 1px solid #f09e3a;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.addNoteButton {
+  background-color: black;
+  font-size: 1.5rem;
+  border: none;
+  border-radius: 50%;
+  font-weight: bold;
+  padding: 0.5rem;
+  color: white;
+  width: 50px;
+  height: 50px;
+}
+
+.sideBarButtonContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  gap: 0.5rem;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 900;
+}
+
+.sidebarFooterContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+  padding-bottom: 2rem;
+}
+
+.filterOptionContainer {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  gap: 2rem;
+}
+
+.buttonFilterContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.buttonEdit {
+  background: black;
+  color: white;
+  padding: 0.5rem;
+  border-radius: 5rem;
+  width: 50px;
+  height: 50px;
+}
